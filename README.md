@@ -3,7 +3,7 @@
 # 🛡️ ShadowDiff
 ### *Catch Supply Chain Backdoors & Malicious Dependency Diffs Before They Reach Production.*
 
-[![GitHub Release](https://img.shields.io/github/v/release/yourusername/shadowdiff?style=for-the-badge)]()
+[![GitHub Release](https://img.shields.io/github/v/release/srahmanovie/shadowdiff?style=for-the-badge)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)]()
 
@@ -30,7 +30,7 @@ Modern supply chain attacks don't look like blatant malware—they look like min
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/srahmanovie/shadowdiff.git](https://github.com/srahmanovie/shadowdiff.git)
+   git clone https://github.com/srahmanovie/shadowdiff.git
    cd shadowdiff
 
 2. Install dependencies 

@@ -1,0 +1,11 @@
+name: 'ShadowDiff PR Sentinel'
+description: 'Detect behavioral changes and supply chain anomalies in dependencies.'
+inputs:
+  github-token:
+    description: 'GitHub Token'
+    required: true
+runs:
+  using: 'composite'
+  steps:
+    - name: Run ShadowDiff Scanner
+      run: python3 /path/to/shadowdiff/main.py --token ${{ inputs.github-token }}
